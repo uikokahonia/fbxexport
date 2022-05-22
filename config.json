@@ -1,0 +1,9 @@
+{
+  "PLUG_TAG2NAME" : {
+    "BC": "color",
+    "N": "normalCamera",
+    "R": "roughness",
+    "O": "transparency"
+  },
+  "SUPPORTED_IMAGE_FORMATS" : [".jpg", ".jpeg", ".png"]
+}
