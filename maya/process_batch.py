@@ -40,6 +40,7 @@ if "__main__" == __name__:
                 config.get("SUPPORTED_IMAGE_FORMATS"),
                 environ.get("FBX_EXPORT_PRESET"),
             )
+            alone.uninitialize()
         else:
             raise Exception("Too few arguments. At least 2 files are required")
     except Exception as e:
