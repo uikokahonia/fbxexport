@@ -121,7 +121,7 @@ if "__main__" == __name__:
 
         p = run(
             [
-                environ.get("MAYAPY_LOCATION"),
+                environ.get("MAYAPY22_BIN"),
                 environ.get("MAYA_BATCH_MODULE"),
                 fbx_file,
                 args.out,
